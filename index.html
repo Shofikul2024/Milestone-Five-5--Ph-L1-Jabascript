@@ -8,41 +8,58 @@
 </head>
 <body>
     <h1> My awesome dom de baba     </h1>
-    <h1>My awesome dom de baba </h1>
+    
+    
+    <h1>   Checking   our  webside</h1>
     <ul>
+
+
 <li>jalali set </li>
 <li> shafayet</li>
 <li> bonobash </li>
-<li> dom de baba    </li>
+<li> dom de baba  </li>
+
+
+<li>shofikul</li>
+<li> zakir</li>
+<li>karim</li>
+<li>mister</li>
 
   </ul>
   <main>
 
   </main>
 <script src="./js/dom.js"></script>
-<!-- 
+ 
+
+
 <script>  
-    console.log( " inside the  html  file")  
 
 
-</script> -->
 
-
-<script>
+console.log( " inside the  html  file")  
 
 const liCollection=document.getElementsByTagName('li') ;
 
 for (const li of liCollection) {
 
-    console.log(li)
+    console.log(li.innerText)
     
 }
 
 
 
-<!-- console.log(liCollection) -->
+const allHeadings=document.getElementsByTagName('h1')
+
+for (const h1 of allHeadings)
+console.log(h1.innerText)
+
+
+
 
 </script>
+
+
 
 
 </body>
